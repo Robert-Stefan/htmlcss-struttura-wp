@@ -69,7 +69,8 @@ main .widgets {
 
 /*FOOTER*/
 footer {
-    height: 90px;
-    
+    margin-top: 20px;
+    height: 50px;
     background: rgb(152, 3, 252);
 }
+
