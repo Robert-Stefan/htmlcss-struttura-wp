@@ -9,15 +9,67 @@ body {
     font-family: sans-serif;
 }
 
+/* UTILITY */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* HEADER */
 header {
     height: 100px;
     margin-bottom: 20px;
     background: pink
 }
+
 /*BANNER*/
 .banner {
     height: 300px;
     margin-bottom: 20px;
     background: rgb(180, 138, 2);
+}
+
+/*HEADER CONTENT*/
+.headercontent {
+    height: 50px;
+    margin-bottom: 10px;
+    background: rgb(0, 153, 255);
+}
+
+/*MAIN CONTENT*/
+main {
+    margin-bottom: 10px;
+}
+
+main .sidebar,
+main .main-content,
+main .widgets {
+    float: left;
+}
+
+main .sidebar,
+main .widgets {
+    width: 24%;
+    height: 500px;
+    margin-right: 1%;
+    background: rgb(0, 153, 255);
+}
+
+main .main-content {
+    width: 50%;
+    height: 500px;
+    background: rgb(0, 153, 255);
+}
+
+main .widgets {
+    margin-left: 1%;
+    margin-right: 0;
+}
+
+/*FOOTER*/
+footer {
+    height: 90px;
+    
+    background: rgb(152, 3, 252);
 }
